@@ -15,9 +15,8 @@ function nowServing(katzDeliLine) {
     deliLine.push(i+".", line)
    }
    if (i < line.length) {
-     
+      return ("The line is currently: "+deliLine)
    }
-  
       return ("The line is currently empty.")
    }
   
