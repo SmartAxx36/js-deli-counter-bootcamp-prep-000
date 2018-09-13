@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
  function currentLine(line) {
   for (let i=0; i < line.length; i++) {
     line.push()
-    return ("The line is currently: "+i+". "+line)
+     "+i+". "+line)
    }
       return ("The line is currently empty.")
    }
