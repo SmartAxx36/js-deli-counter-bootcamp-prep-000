@@ -3,6 +3,8 @@ function takeANumber(katzDeli, name) {
   return ("Welcome, "+ name +". You are number "+(katzDeli.length)+" in line.")
 }
 function nowServing(katzDeliLine) {
-  katzDeliLine.shift(name)
+ if (katzDeliLine.shift(name)) {
+   
+ }
   return ("Currently serving "+name+".")
 }
