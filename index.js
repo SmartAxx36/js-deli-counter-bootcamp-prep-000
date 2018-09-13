@@ -4,7 +4,7 @@ function takeANumber(katzDeli, name) {
 }
 function nowServing(katzDeliLine) {
   let i = 0
- if (i < 2) {
+ if (i < katzDeliLine.length) {
    katzDeliLine.shift(name)
    return ("Currently serving "+(katzDeliLine[i])+".")
  } else {
