@@ -6,7 +6,7 @@ function nowServing(katzDeliLine) {
   let i = 0
  if (i < katzDeliLine.length) {
    return ("Currently serving "+(katzDeliLine[0])+".")
-   
+    katzDeliLine.shift(name)
  } else {
    return ("There is nobody waiting to be served!")
  }
