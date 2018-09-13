@@ -6,5 +6,5 @@ function nowServing(katzDeliLine) {
  if (katzDeliLine.shift(name)) {
    
  }
-  return ("Currently serving "+name+".")
+  
 }
