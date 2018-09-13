@@ -10,7 +10,7 @@ function nowServing(katzDeliLine) {
    return ("There is nobody waiting to be served!")
  }}
  function currentLine(line) {
-   for (i=0, i < line.length, i++) {
+   let i = 0
    if (i < line.length) {
     return ("The line is currently:"+line.length+". "+line)
    } else {
