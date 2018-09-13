@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
    if (i < line.length) {
     return ("The line is currently:"+)
    } else {
-      return 
+      return ()
    }
   
  }
