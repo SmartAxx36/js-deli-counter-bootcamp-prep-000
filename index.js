@@ -11,11 +11,9 @@ function nowServing(katzDeliLine) {
  }}
  function currentLine(line) {
   let deliLine = []
-  for (let i=0; i < line.length; i++) {
+  for (let i=0; i < line.length-1; i++) {
     deliLine.push(i+". "+line[i])
-   }
-   let i=1
-   if (i < line.length) {
+   } {
       return ("The line is currently: "+deliLine)
    }
       return ("The line is currently empty.")
